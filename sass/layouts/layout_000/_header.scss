@@ -1,0 +1,25 @@
+.header {
+  &__bottom-burger-btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+  }
+
+  &__bottom-burger-btn span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    left: 5px;
+  }
+
+  &__bottom-burger-btn span:nth-child(1) {
+    transform: translateY(-10px);
+  }
+
+  &__bottom-burger-btn span:nth-child(3) {
+    transform: translateY(10px);
+  }
+}
