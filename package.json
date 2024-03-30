@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "stylelint": "npx stylelint \"**/*.{scss,css}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markovo4/Portfolio-4.git"
+  },
+  "author": "Volodymyr Kirillov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markovo4/Portfolio-4/issues"
+  },
+  "homepage": "https://github.com/markovo4/Portfolio-4#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "stylelint": "^16.3.1",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
